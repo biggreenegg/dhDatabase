@@ -1,10 +1,10 @@
 ---
-buildName: "dhdatabase"
+buildName: "dhdb1"
 links:
   Git: "https://github.com/biggreenegg/dhDatabase.git"
-  Job: "http://jenkins.fabric8js.oscp.cpo.com/job/dhdatabase"
-  Production: "http://172.30.165.48:80/kubernetes/pods?namespace=default-production"
-  Staging: "http://172.30.165.48:80/kubernetes/pods?namespace=default-staging"
+  Job: "http://jenkins.testf8el.oscp.cpo.com/job/dhdb1"
+  Production: "http://172.30.86.237:80/kubernetes/pods?namespace=default-production"
+  Staging: "http://172.30.86.237:80/kubernetes/pods?namespace=default-staging"
 environments:
   Staging: "default-staging"
   Production: "default-production"
